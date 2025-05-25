@@ -22,6 +22,7 @@ require 'autocmds'
 -- Load plugins with lazy.nvim
 require('lazy').setup({ import = 'plugins' }, {
   ui = {
+    border = 'rounded',
     icons = vim.g.have_nerd_font and {} or {
       cmd = '⌘',
       config = '🛠',
