@@ -15,9 +15,9 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Load core config
-require 'settings'
-require 'keymaps'
-require 'autocmds'
+require('settings')
+require('keymaps')
+require('autocmds')
 
 -- Load plugins with lazy.nvim
 require('lazy').setup({ import = 'plugins' }, {

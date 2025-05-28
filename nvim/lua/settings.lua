@@ -1,4 +1,4 @@
-vim.g.have_nerd_font = false
+-- vim.g.have_nerd_font = false
 vim.opt.wrap = false
 vim.opt.sidescroll = 5
 vim.opt.sidescrolloff = 8
@@ -28,3 +28,5 @@ vim.o.inccommand = 'split'
 vim.o.cursorline = true
 vim.o.scrolloff = 10
 vim.o.confirm = true
+
+vim.g.copilot_no_tab_map = true

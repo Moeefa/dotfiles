@@ -1,2 +1,6 @@
 background = #201c1c
 background-opacity = 1
+# font-family = "Maple Mono"
+
+window-height = 32
+window-width = 148

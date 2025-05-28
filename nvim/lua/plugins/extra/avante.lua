@@ -39,4 +39,16 @@ return {
       ft = { 'markdown', 'Avante' },
     },
   },
+  --[[  config = function()
+    -- Checa se o avante está carregado
+    local ok, avante = pcall(require, 'avante')
+    if ok then
+      -- Tenta limpar autocmds problemáticos
+      vim.api.nvim_clear_autocmds {
+        event = 'WinEnter',
+        -- Se o avante criou um grupo, ideal passar group = "avante"
+        -- mas como não temos certeza, limpamos geral.
+      }
+    end
+  end, ]]
 }
